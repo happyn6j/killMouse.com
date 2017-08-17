@@ -1,0 +1,30 @@
+*{
+	padding: 0 ;
+	margin: 0 ;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑","宋体","黑体","Times New Roman","Arial";
+}
+#game_panel{
+	position: relative;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#game_panel .box{
+	position: absolute;
+	background: #eee;
+	border: 1px solid #fff;
+}
+.diglett_up{
+	position: absolute;
+	background: url(../image/up.png) no-repeat;
+	background-size: 60px 60px;
+	cursor: pointer;/*小手*/
+}
+.diglett_down{
+	position: absolute;
+	background: url(../image/down.png) no-repeat;
+	background-size: 60px 60px;
+	cursor: pointer;/*小手*/
+}
